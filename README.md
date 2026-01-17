@@ -27,10 +27,10 @@
 
 | Metric                     | Count                 |
 | -------------------------- | --------------------- |
-| 🎯 **Total Skills**        | 6                     |
-| 📄 **Documentation Files** | 66                    |
-| 🐍 **Utility Scripts**     | 4                     |
-| 📝 **Lines of Content**    | 7,485+                |
+| 🎯 **Total Skills**        | 9 |
+| 📄 **Documentation Files** | 67 |
+| 🐍 **Utility Scripts**     | 1 |
+| 📝 **Lines of Content**    | 9,063+ |
 | 📂 **Categories**          | 2 (Frontend, General) |
 
 </p>
@@ -39,11 +39,11 @@
 Skills Distribution
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Frontend Skills     ████████████              3 skills (50%)
+Frontend Skills     █████                     2 skills (22%)
 ├── React/Next.js   ██████████████████        2 skills
 └── Web Design      ██████                    1 skill
 
-General Skills      ████████████              3 skills (50%)
+General Skills      ██████████████████        2 skills (78%)
 ├── Documentation   ██████████████████        2 skills
 └── Skill Creator   ██████                    1 skill (meta)
 
