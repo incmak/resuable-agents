@@ -27,10 +27,10 @@
 
 | Metric                     | Count                       |
 | -------------------------- | --------------------------- |
-| 🎯 **Total Skills**        | 8                           |
-| 📄 **Documentation Files** | 68                          |
-| 🐍 **Utility Scripts**     | 14                          |
-| 📝 **Lines of Content**    | 14,533+                     |
+| 🎯 **Total Skills**        | 7 |
+| 📄 **Documentation Files** | 65 |
+| 🐍 **Utility Scripts**     | 1 |
+| 📝 **Lines of Content**    | 7,841+ |
 | 📂 **Categories**          | 3 (Frontend, General, Auth) |
 
 </p>
@@ -39,11 +39,11 @@
 Skills Distribution
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Frontend Skills     ██████              2 skills (25%)
+Frontend Skills     ██████              2 skills (28%)
 
-General Skills      ████████            3 skills (37%)
+General Skills      ██████              2 skills (28%)
 
-Auth Skills         ████████            3 skills (38%)
+Auth Skills         ██████████          3 skills (42%)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
