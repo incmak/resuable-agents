@@ -14,8 +14,8 @@
 
 <p align="center">
   <a href="#-quick-stats">Stats</a> •
+  <a href="#-installation">Installation</a> •
   <a href="#-skills-catalog">Catalog</a> •
-  <a href="#-getting-started">Getting Started</a> •
   <a href="#-author">Author</a>
 </p>
 
@@ -25,13 +25,13 @@
 
 <p align="center">
 
-| Metric                     | Count                 |
-| -------------------------- | --------------------- |
-| 🎯 **Total Skills**        | 9 |
-| 📄 **Documentation Files** | 67 |
-| 🐍 **Utility Scripts**     | 1 |
-| 📝 **Lines of Content**    | 9,063+ |
-| 📂 **Categories**          | 2 (Frontend, General) |
+| Metric                     | Count                       |
+| -------------------------- | --------------------------- |
+| 🎯 **Total Skills**        | 8                           |
+| 📄 **Documentation Files** | 68                          |
+| 🐍 **Utility Scripts**     | 14                          |
+| 📝 **Lines of Content**    | 14,533+                     |
+| 📂 **Categories**          | 3 (Frontend, General, Auth) |
 
 </p>
 
@@ -39,15 +39,36 @@
 Skills Distribution
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Frontend Skills     █████                     2 skills (22%)
-├── React/Next.js   ██████████████████        2 skills
-└── Web Design      ██████                    1 skill
+Frontend Skills     ██████              2 skills (25%)
 
-General Skills      ██████████████████        2 skills (78%)
-├── Documentation   ██████████████████        2 skills
-└── Skill Creator   ██████                    1 skill (meta)
+General Skills      ████████            3 skills (37%)
+
+Auth Skills         ████████            3 skills (38%)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+## 🚀 Installation
+
+Install skills directly using npx:
+
+```bash
+# List all available skills
+npx @incmak/curated-skills list
+
+# Install a skill to your project
+npx @incmak/curated-skills add pptx
+
+# Install globally (available in all projects)
+npx @incmak/curated-skills add better-auth --global
+
+# Search for skills
+npx @incmak/curated-skills search auth
+
+# Remove a skill
+npx @incmak/curated-skills remove pptx
 ```
 
 ---
@@ -60,37 +81,22 @@ General Skills      ██████████████████      
 | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------- |
 | **[Bulletproof React](frontend/react-nextjs/skills/bulletproof-react/)**                     | Feature-based architecture for scalable React/Next.js apps | 4 reference docs |
 | **[Vercel React Best Practices](frontend/react-nextjs/skills/vercel-react-best-practices/)** | Performance optimization from Vercel Engineering           | 45 rules         |
-| **[Web Design Guidelines](frontend/skills/web-design-guidelines/)**                          | UI compliance checker for Web Interface Guidelines         | Live fetch       |
 
-### 📝 General Skills
+### 🔐 Auth Skills
 
-| Skill                                            | Description                                         | Features        |
-| ------------------------------------------------ | --------------------------------------------------- | --------------- |
-| **[Doc Co-authoring](general/doc-coauthoring/)** | Structured workflow for collaborative documentation | 3-stage process |
-| **[Internal Comms](general/internal-comms/)**    | Templates for internal communications               | 4 templates     |
-| **[Skill Creator](general/skill-creator/)**      | Meta-skill for creating new skills                  | 3 scripts       |
+| Skill                                                           | Description                                        | Features               |
+| --------------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
+| **[Better Auth](auth/skills/better-auth-best-practices/)**      | Best practices for Better Auth framework           | TypeScript-first       |
+| **[Create Auth](auth/skills/create-auth-skill/)**               | Create authentication layers using Better Auth     | Decision tree workflow |
+| **[Web Design Guidelines](auth/skills/web-design-guidelines/)** | UI compliance checker for Web Interface Guidelines | Live fetch             |
 
----
+### 📦 General Skills
 
-## 🚀 Getting Started
-
-### Creating a New Skill
-
-```bash
-python general/skill-creator/scripts/init_skill.py my-skill --path ./my-skills/
-```
-
-### Validating a Skill
-
-```bash
-python general/skill-creator/scripts/quick_validate.py ./path/to/skill
-```
-
-### Packaging for Distribution
-
-```bash
-python general/skill-creator/scripts/package_skill.py ./path/to/skill ./dist/
-```
+| Skill                                            | Description                                          | Features           |
+| ------------------------------------------------ | ---------------------------------------------------- | ------------------ |
+| **[PPTX](general/pptx/)**                        | PowerPoint creation, editing, and OOXML manipulation | HTML2PPTX, schemas |
+| **[Doc Co-authoring](general/doc-coauthoring/)** | Structured workflow for collaborative documentation  | 3-stage process    |
+| **[Internal Comms](general/internal-comms/)**    | Templates for internal communications                | 4 templates        |
 
 ---
 

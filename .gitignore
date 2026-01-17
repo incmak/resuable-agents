@@ -9,6 +9,8 @@ ENV/
 pptx
 .env
 
+node_modules
+
 # Distribution
 dist/
 build/

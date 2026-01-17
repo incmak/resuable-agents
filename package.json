@@ -1,0 +1,48 @@
+{
+  "name": "@incmak/curated-skills",
+  "version": "1.0.0",
+  "description": "CLI to install curated AI agent skills for Claude Code",
+  "main": "cli/src/index.js",
+  "bin": {
+    "curated-skills": "cli/bin/curated-skills.js",
+    "skills": "cli/bin/curated-skills.js"
+  },
+  "scripts": {
+    "start": "node cli/bin/curated-skills.js",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "ai",
+    "cli",
+    "templates",
+    "better-auth",
+    "pptx"
+  ],
+  "author": "incmak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmak/reusable-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/incmak/reusable-agents/issues"
+  },
+  "homepage": "https://github.com/incmak/reusable-agents#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "cli/",
+    "skills/",
+    "README.md"
+  ]
+}
