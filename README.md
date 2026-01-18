@@ -27,10 +27,10 @@
 
 | Metric                     | Count                       |
 | -------------------------- | --------------------------- |
-| 🎯 **Total Skills**        | 7 |
-| 📄 **Documentation Files** | 65 |
-| 🐍 **Utility Scripts**     | 1 |
-| 📝 **Lines of Content**    | 7,841+ |
+| 🎯 **Total Skills**        | 7                           |
+| 📄 **Documentation Files** | 65                          |
+| 🐍 **Utility Scripts**     | 1                           |
+| 📝 **Lines of Content**    | 7,841+                      |
 | 📂 **Categories**          | 3 (Frontend, General, Auth) |
 
 </p>
