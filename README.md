@@ -28,9 +28,9 @@
 | Metric                     | Count                       |
 | -------------------------- | --------------------------- |
 | 🎯 **Total Skills**        | 8 |
-| 📄 **Documentation Files** | 90 |
+| 📄 **Documentation Files** | 93 |
 | 🐍 **Utility Scripts**     | 1 |
-| 📝 **Lines of Content**    | 11,728+ |
+| 📝 **Lines of Content**    | 12,001+ |
 | 📂 **Categories**          | 3 (Frontend, General, Auth) |
 
 </p>
